@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Achetez la meilleure chaîne de hanche pour femmes – élégante et confortable. Design moderne et raffiné pour sublimer votre silhouette.">
+    <title>Chaîne de Hanche Élégante | Bijou Féminin Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gold': '#D4AF37',
+                        'rose': '#FFE4E9',
+                        'rose-dark': '#FFC0CB',
+                        'dark': '#2C2C2C',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        
+        .fade-in.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .pulse-btn {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 20px 10px rgba(212, 175, 55, 0);
+            }
+        }
+        
+        .hover-zoom {
+            transition: transform 0.4s ease;
+        }
+        
+        .hover-zoom:hover {
+            transform: scale(1.08);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #D4AF37 0%, #FFB6C1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #FFE4E9 0%, #FFF 50%, #FFE4E9 100%);
+        }
+        
+        .sticky-header {
+            transition: all 0.3s ease;
+        }
+        
+        .sticky-header.scrolled {
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Bannière promotionnelle */
+        .promo-banner {
+            background: linear-gradient(90deg, #D4AF37 0%, #FFB6C1 50%, #D4AF37 100%);
+            animation: gradientShift 3s ease infinite;
+        }
+        
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        /* Particules dorées */
+        .particle {
+            position: absolute;
+            background: radial-gradient(circle, #D4AF37 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: float 4s infinite ease-in-out;
+            opacity: 0.6;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0); }
+            25% { transform: translateY(-20px) translateX(10px); }
+            50% { transform: translateY(-40px) translateX(-10px); }
+            75% { transform: translateY(-20px) translateX(5px); }
+        }
+        
+        /* Effet de brillance */
+        .shine {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .shine::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                transparent 30%,
+                rgba(255, 255, 255, 0.8) 50%,
+                transparent 70%
+            );
+            transform: translateX(-100%);
+            animation: shine 3s infinite;
+        }
+        
+        @keyframes shine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+        
+        /* Badge flottant */
+        .badge-float {
+            animation: badgeFloat 3s infinite ease-in-out;
+        }
+        
+        @keyframes badgeFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        /* Bouton WhatsApp flottant */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 100;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        /* Counter animation */
+        .counter {
+            font-variant-numeric: tabular-nums;
+        }
+        
+        /* Dark Mode */
+        body {
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        body.dark-mode {
+            background-color: #1a1a1a;
+            color: #e5e5e5;
+        }
+        
+        body.dark-mode .hero-gradient {
+            background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 50%, #2a2a2a 100%);
+        }
+        
+        body.dark-mode .sticky-header {
+            background: rgba(26, 26, 26, 0.95);
+        }
+        
+        body.dark-mode .sticky-header.scrolled {
+            background: rgba(26, 26, 26, 0.98);
+            box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
+        }
+        
+        body.dark-mode .bg-white {
+            background-color: #2a2a2a !important;
+        }
+        
+        body.dark-mode section {
+            background-color: #1a1a1a;
+        }
+        
+        body.dark-mode .text-dark {
+            color: #e5e5e5 !important;
+        }
+        
+        body.dark-mode .text-gray-700 {
+            color: #c0c0c0 !important;
+        }
+        
+        body.dark-mode .text-gray-600 {
+            color: #a0a0a0 !important;
+        }
+        
+        body.dark-mode .text-gray-500 {
+            color: #888888 !important;
+        }
+        
+        body.dark-mode .text-gray-400 {
+            color: #777777 !important;
+        }
+        
+        body.dark-mode .shadow-lg,
+        body.dark-mode .shadow-xl,
+        body.dark-mode .shadow-2xl {
+            box-shadow: 0 10px 40px rgba(212, 175, 55, 0.1) !important;
+        }
+        
+        body.dark-mode .border-gray-200 {
+            border-color: #3a3a3a !important;
+        }
+        
+        body.dark-mode .border-gray-100 {
+            border-color: #2a2a2a !important;
+        }
+        
+        body.dark-mode .border-gray-700 {
+            border-color: #3a3a3a !important;
+        }
+        
+        body.dark-mode .bg-dark {
+            background-color: #0a0a0a !important;
+        }
+        
+        body.dark-mode .bg-gradient-to-br {
+            background: linear-gradient(to bottom right, #2a2a2a, #1a1a1a) !important;
+        }
+        
+        body.dark-mode .bg-gradient-to-r {
+            background: linear-gradient(to right, #D4AF37, #FFB6C1, #D4AF37) !important;
+        }
+        
+        body.dark-mode footer {
+            background-color: #0a0a0a !important;
+        }
+        
+        body.dark-mode #mobile-menu {
+            background-color: #2a2a2a !important;
+        }
+        
+        body.dark-mode .promo-banner {
+            background: linear-gradient(90deg, #D4AF37 0%, #FFB6C1 50%, #D4AF37 100%);
+        }
+        
+        /* Theme Toggle Button */
+        .theme-toggle {
+            position: relative;
+            width: 60px;
+            height: 30px;
+            background: #e5e5e5;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        body.dark-mode .theme-toggle {
+            background: #3a3a3a;
+        }
+        
+        .theme-toggle-circle {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 24px;
+            height: 24px;
+            background: white;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        body.dark-mode .theme-toggle-circle {
+            transform: translateX(30px);
+            background: #D4AF37;
+        }
+    </style>
+</head>
+<body class="font-poppins text-dark">
+    
+    <!-- Promo Banner -->
+    <div class="promo-banner text-white text-center py-2 text-sm font-semibold">
+        🔥 OFFRE FLASH : -40% + Livraison Offerte | Plus que <span id="stock-left" class="font-bold">23</span> en stock !
+    </div>
+    
+    <!-- Header -->
+    <header id="header" class="sticky-header fixed w-full top-0 z-50 bg-white/80 backdrop-blur-sm">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-gold to-rose-dark rounded-full flex items-center justify-center">
+                    <span class="text-white font-poppins font-bold text-xl">J</span>
+                </div>
+                <span class="font-poppins font-bold text-2xl gradient-text">Jiz Bijoux</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="flex items-center space-x-6">
+                <ul class="hidden md:flex space-x-8 font-medium">
+                    <li><a href="#accueil" class="hover:text-gold transition">Accueil</a></li>
+                    <li><a href="#produit" class="hover:text-gold transition">Produit</a></li>
+                    <li><a href="#temoignages" class="hover:text-gold transition">Témoignages</a></li>
+                    <li><a href="#commander" class="hover:text-gold transition">Commander</a></li>
+                </ul>
+                
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle" title="Basculer le mode sombre">
+                    <div class="theme-toggle-circle">
+                        <svg id="sun-icon" class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                        </svg>
+                        <svg id="moon-icon" class="w-4 h-4 text-white hidden" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-dark focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <ul class="py-4 space-y-4 text-center">
+                <li><a href="#accueil" class="block hover:text-gold transition">Accueil</a></li>
+                <li><a href="#produit" class="block hover:text-gold transition">Produit</a></li>
+                <li><a href="#temoignages" class="block hover:text-gold transition">Témoignages</a></li>
+                <li><a href="#commander" class="block hover:text-gold transition">Commander</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-gradient pt-24 pb-16 md:pt-32 md:pb-24 relative overflow-hidden">
+        <!-- Particules dorées animées -->
+        <div id="particles" class="absolute inset-0 pointer-events-none"></div>
+        
+        <!-- Badges flottants -->
+        
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <!-- Text Content -->
+                <div class="flex-1 text-center md:text-left fade-in">
+                    <h1 class="font-poppins text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                        Sublimez Votre <span class="gradient-text">Silhouette</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+                        Découvrez la chaîne de hanche qui allie élégance, confort et raffinement. 
+                        Un bijou unique qui met en valeur votre féminité avec subtilité.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="#commander" class="pulse-btn bg-gold text-white px-8 py-4 rounded-full font-semibold hover:bg-opacity-90 transition shadow-lg">
+                            Acheter Maintenant
+                        </a>
+                        <a href="#produit" class="border-2 border-gold text-gold px-8 py-4 rounded-full font-semibold hover:bg-gold hover:text-white transition">
+                            Découvrir
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Image -->
+                <div class="flex-1 fade-in">
+                    <div class="relative shine">
+                        <div class="absolute inset-0 bg-gradient-to-r from-gold to-rose-dark opacity-20 rounded-3xl blur-3xl"></div>
+                        <img src="images/main.jpeg" 
+                             alt="Chaîne de hanche élégante" 
+                             class="relative rounded-3xl shadow-2xl w-full hover-zoom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Timer Section -->
+    <section class="bg-gradient-to-r from-gold via-rose-dark to-gold py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6 text-white text-center">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="font-semibold text-lg">Offre limitée se termine dans :</span>
+                </div>
+                <div class="flex space-x-4" id="countdown">
+                    <div class="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+                        <div class="text-2xl font-bold counter" id="hours">00</div>
+                        <div class="text-xs">Heures</div>
+                    </div>
+                    <div class="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+                        <div class="text-2xl font-bold counter" id="minutes">00</div>
+                        <div class="text-xs">Minutes</div>
+                    </div>
+                    <div class="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+                        <div class="text-2xl font-bold counter" id="seconds">00</div>
+                        <div class="text-xs">Secondes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Trust Badges Section -->
+    <section class="py-12 bg-white border-b border-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+                <div class="text-center fade-in">
+                    <div class="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <div class="font-semibold text-sm">Paiement<br>Sécurisé</div>
+                </div>
+                <div class="text-center fade-in">
+                    <div class="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                        </svg>
+                    </div>
+                    <div class="font-semibold text-sm">Livraison<br>Offerte</div>
+                </div>
+                <div class="text-center fade-in">
+                    <div class="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <div class="font-semibold text-sm">Garantie<br>30 Jours</div>
+                </div>
+                <div class="text-center fade-in">
+                    <div class="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                        </svg>
+                    </div>
+                    <div class="font-semibold text-sm">+500 Avis<br>5 Étoiles</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Product Section -->
+    <section id="produit" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="font-poppins text-3xl md:text-5xl font-bold mb-4">
+                    Notre <span class="gradient-text">Création</span>
+                </h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+                    Une pièce unique conçue avec passion pour célébrer votre beauté naturelle
+                </p>
+            </div>
+            
+            <!-- Product Gallery -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                <div class="fade-in overflow-hidden rounded-2xl shadow-lg shine">
+                    <img src="images/chaine1.jpeg" 
+                         alt="Chaîne de hanche détail" 
+                         class="w-full h-80 object-cover hover-zoom">
+                </div>
+                <div class="fade-in overflow-hidden rounded-2xl shadow-lg shine">
+                    <img src="images/chaine2.jpeg" 
+                         alt="Chaîne de hanche portée" 
+                         class="w-full h-80 object-cover hover-zoom">
+                </div>
+                <div class="fade-in overflow-hidden rounded-2xl shadow-lg shine">
+                    <img src="images/chaine3.jpeg" 
+                         alt="Détails bijou" 
+                         class="w-full h-80 object-cover hover-zoom">
+                </div>
+            </div>
+            
+            <!-- Product Features -->
+            <div class="bg-gradient-to-br from-rose to-white rounded-3xl p-8 md:p-12 fade-in">
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="font-poppins text-2xl md:text-3xl font-bold mb-8 text-center">
+                        Pourquoi Choisir Notre Chaîne de Hanche ?
+                    </h3>
+                    
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- Feature 1 -->
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gold rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-xl mb-2">Design Unique</h4>
+                                <p class="text-gray-700">Bijou artisanal au design moderne et élégant, créé pour sublimer chaque morphologie</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Feature 2 -->
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gold rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-xl mb-2">Confort Optimal</h4>
+                                <p class="text-gray-700">Matériaux de qualité supérieure, légers et ajustables pour un port agréable toute la journée</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Feature 3 -->
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gold rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-xl mb-2">Qualité Premium</h4>
+                                <p class="text-gray-700">Finitions soignées, résistance à l'eau et garantie longue durée pour un bijou qui traverse le temps</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Feature 4 -->
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gold rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-xl mb-2">Style Polyvalent</h4>
+                                <p class="text-gray-700">Parfait pour toutes les occasions : quotidien, soirées, plage ou événements spéciaux</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Featured In Section -->
+    <section class="py-16 bg-gradient-to-br from-rose/30 to-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12 fade-in">
+                <h2 class="font-poppins text-2xl md:text-3xl font-bold mb-2">
+                    Vu Chez Les <span class="gradient-text">Influenceuses</span>
+                </h2>
+                <p class="text-gray-600">Porté et approuvé par des milliers de femmes</p>
+            </div>
+            
+            <div class="flex flex-wrap justify-center items-center gap-12 max-w-4xl mx-auto fade-in">
+                <div class="text-center opacity-60 hover:opacity-100 transition">
+                    <div class="text-2xl font-bold text-gold">@BeautyQueen</div>
+                    <div class="text-sm text-gray-500">150K abonnés</div>
+                </div>
+                <div class="text-center opacity-60 hover:opacity-100 transition">
+                    <div class="text-2xl font-bold text-gold">@FashionLife</div>
+                    <div class="text-sm text-gray-500">280K abonnés</div>
+                </div>
+                <div class="text-center opacity-60 hover:opacity-100 transition">
+                    <div class="text-2xl font-bold text-gold">@StyleGoals</div>
+                    <div class="text-sm text-gray-500">95K abonnés</div>
+                </div>
+                <div class="text-center opacity-60 hover:opacity-100 transition">
+                    <div class="text-2xl font-bold text-gold">@GlamourDiva</div>
+                    <div class="text-sm text-gray-500">320K abonnés</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="temoignages" class="py-16 md:py-24 hero-gradient">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="font-poppins text-3xl md:text-5xl font-bold mb-4">
+                    Elles Nous Font <span class="gradient-text">Confiance</span>
+                </h2>
+                <p class="text-gray-600 text-lg">
+                    Découvrez l'expérience de nos clientes ravies
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg fade-in hover:shadow-xl transition">
+                    <div class="flex items-center mb-6">
+                        <img src="https://i.pravatar.cc/150?img=1" 
+                             alt="Sarah M." 
+                             class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold text-lg">Sarah M.</h4>
+                            <div class="flex text-gold">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Un bijou magnifique qui attire tous les regards ! La qualité est exceptionnelle 
+                        et le confort incroyable. Je le porte tous les jours."
+                    </p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg fade-in hover:shadow-xl transition">
+                    <div class="flex items-center mb-6">
+                        <img src="https://i.pravatar.cc/150?img=5" 
+                             alt="Amina K." 
+                             class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold text-lg">Amina K.</h4>
+                            <div class="flex text-gold">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Parfait pour sublimer ma silhouette ! Le design est élégant et discret. 
+                        J'ai reçu tellement de compliments. Un achat que je ne regrette pas !"
+                    </p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg fade-in hover:shadow-xl transition">
+                    <div class="flex items-center mb-6">
+                        <img src="https://i.pravatar.cc/150?img=9" 
+                             alt="Léa B." 
+                             class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold text-lg">Léa B.</h4>
+                            <div class="flex text-gold">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Livraison rapide et produit conforme à mes attentes. La chaîne est ajustable 
+                        et très bien finie. Je recommande à 100% !"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Order Section -->
+    <section id="commander" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="fade-in">
+                    <h2 class="font-poppins text-3xl md:text-5xl font-bold mb-6">
+                        Comment <span class="gradient-text">Commander</span>
+                    </h2>
+                    <p class="text-gray-600 text-lg mb-12">
+                        Commandez votre chaîne de hanche en quelques clics via WhatsApp
+                    </p>
+                    
+                    <div class="bg-gradient-to-br from-rose to-white rounded-3xl p-8 md:p-12 shadow-xl mb-8">
+                        <div class="mb-8">
+                            <div class="text-4xl md:text-5xl font-poppins font-bold text-dark mb-2">
+                                29,99€
+                            </div>
+                            <p class="text-gray-600">Prix spécial lancement</p>
+                        </div>
+                        
+                        <div class="space-y-4 mb-8 text-left max-w-md mx-auto">
+                            <div class="flex items-center">
+                                <svg class="w-6 h-6 text-gold mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Livraison gratuite</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg class="w-6 h-6 text-gold mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Garantie satisfaction 30 jours</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg class="w-6 h-6 text-gold mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Paiement sécurisé</span>
+                            </div>
+                            <div class="flex items-center">
+                                <svg class="w-6 h-6 text-gold mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Support client réactif</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://wa.me/22955611802?text=Bonjour%2C%20je%20souhaite%20commander%20une%20cha%C3%AEne%20de%20hanche" 
+                           target="_blank"
+                           class="inline-flex items-center justify-center bg-green-500 text-white px-10 py-5 rounded-full font-semibold text-lg hover:bg-green-600 transition shadow-lg hover:shadow-xl transform hover:scale-105">
+                            <svg class="w-7 h-7 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            Commander via WhatsApp
+                        </a>
+                        
+                        <p class="text-sm text-gray-500 mt-6">
+                            Réponse garantie en moins de 2 heures
+                        </p>
+                    </div>
+                    
+                    <div class="bg-gold/10 rounded-2xl p-6 border-2 border-gold/20">
+                        <p class="text-sm text-gray-700">
+                            🎁 <strong>Offre limitée :</strong> Les 50 premières commandes reçoivent un petit bijou surprise offert !
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-gold to-rose-dark rounded-full flex items-center justify-center">
+                            <span class="text-white font-poppins font-bold text-xl">J</span>
+                        </div>
+                        <span class="font-poppins font-bold text-2xl">Jiz Bijoux</span>
+                    </div>
+                    <p class="text-gray-400">
+                        Des bijoux élégants qui subliment votre beauté naturelle.
+                    </p>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Email: contact@jizbijoux.com</li>
+                        <li>WhatsApp: +229 55611802</li>
+                        <li>Du lundi au samedi: 9h-19h</li>
+                    </ul>
+                </div>
+                
+                <!-- Social Media -->
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Suivez-nous</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Jiz Bijoux. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="fixed bottom-8 right-8 bg-gold text-white w-12 h-12 rounded-full shadow-lg opacity-0 pointer-events-none transition-all hover:bg-opacity-90 z-40">
+        <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+    
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/22955611802?text=Bonjour%2C%20je%20souhaite%20commander%20une%20cha%C3%AEne%20de%20hanche" 
+       target="_blank"
+       class="whatsapp-float bg-green-500 text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:bg-green-600 transition group">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span class="absolute -top-1 -right-1 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center animate-ping"></span>
+        <span class="absolute -top-1 -right-1 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">1</span>
+    </a>
+    
+    <script>
+        // Dark Mode Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const sunIcon = document.getElementById('sun-icon');
+        const moonIcon = document.getElementById('moon-icon');
+        const body = document.body;
+        
+        // Charger la préférence sauvegardée
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            body.classList.add('dark-mode');
+            sunIcon.classList.add('hidden');
+            moonIcon.classList.remove('hidden');
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+                sunIcon.classList.add('hidden');
+                moonIcon.classList.remove('hidden');
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+                sunIcon.classList.remove('hidden');
+                moonIcon.classList.add('hidden');
+            }
+        });
+        
+        // Particules dorées
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            if (!particlesContainer) return;
+            
+            const particleCount = 20;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                const size = Math.random() * 8 + 4;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.top = `${Math.random() * 100}%`;
+                particle.style.animationDelay = `${Math.random() * 4}s`;
+                particle.style.animationDuration = `${Math.random() * 3 + 3}s`;
+                
+                particlesContainer.appendChild(particle);
+            }
+        }
+        
+        createParticles();
+        
+        // Compteur de ventes animé
+        function animateCounter() {
+            const counter = document.getElementById('sales-counter');
+            if (!counter) return;
+            
+            const target = Math.floor(Math.random() * 20) + 127;
+            let current = 0;
+            const increment = target / 50;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    counter.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    counter.textContent = Math.floor(current);
+                }
+            }, 30);
+        }
+        
+        animateCounter();
+        
+        // Stock restant
+        function animateStock() {
+            const stockElement = document.getElementById('stock-left');
+            if (!stockElement) return;
+            
+            let stock = 23;
+            setInterval(() => {
+                if (Math.random() > 0.7 && stock > 15) {
+                    stock--;
+                    stockElement.textContent = stock;
+                    stockElement.classList.add('animate-bounce');
+                    setTimeout(() => {
+                        stockElement.classList.remove('animate-bounce');
+                    }, 500);
+                }
+            }, 8000);
+        }
+        
+        animateStock();
+        
+        // Timer compte à rebours
+        function updateCountdown() {
+            const now = new Date();
+            const midnight = new Date();
+            midnight.setHours(24, 0, 0, 0);
+            
+            const diff = midnight - now;
+            
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            const hoursEl = document.getElementById('hours');
+            const minutesEl = document.getElementById('minutes');
+            const secondsEl = document.getElementById('seconds');
+            
+            if (hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');
+            if (minutesEl) minutesEl.textContent = String(minutes).padStart(2, '0');
+            if (secondsEl) secondsEl.textContent = String(seconds).padStart(2, '0');
+        }
+        
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+        
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+        
+        // Sticky Header on Scroll
+        const header = document.getElementById('header');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Fade In on Scroll Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Scroll to Top Button
+        const scrollTopBtn = document.getElementById('scroll-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {
+                scrollTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                scrollTopBtn.classList.add('opacity-100');
+            } else {
+                scrollTopBtn.classList.add('opacity-0', 'pointer-events-none');
+                scrollTopBtn.classList.remove('opacity-100');
+            }
+        });
+        
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Smooth Scroll for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerOffset = 80;
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
